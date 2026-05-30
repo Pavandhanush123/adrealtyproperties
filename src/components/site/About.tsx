@@ -14,13 +14,13 @@ export function About() {
         >
           <img
             src={interior}
-            alt="Luxury interior"
+            alt="Premium Hyderabad residence interior"
             loading="lazy"
             className="rounded-2xl shadow-luxury w-full aspect-[4/5] object-cover"
           />
           <div className="absolute -bottom-8 -right-8 glass-panel rounded-2xl p-6 hidden md:block">
             <div className="font-display text-5xl text-gold">15+</div>
-            <div className="text-sm text-navy tracking-wide">Years defining luxury</div>
+            <div className="text-sm text-navy tracking-wide">Years guiding Hyderabad</div>
           </div>
         </motion.div>
 
@@ -30,29 +30,33 @@ export function About() {
           viewport={{ once: true }}
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         >
-          <span className="text-eyebrow">About AD Realty</span>
+          <span className="text-eyebrow">About AD Realty Properties</span>
           <h2 className="mt-4 font-display text-5xl md:text-6xl text-navy leading-tight">
-            A new standard for property, built on quiet confidence
+            Trusted advisors for every property decision
           </h2>
           <p className="mt-8 text-lg text-muted-foreground leading-relaxed">
-            For over fifteen years, AD Realty Properties has connected discerning clients
-            with the most considered residences in the region. We don't sell square meters —
-            we curate addresses, perspectives, and futures.
+            AD Realty Properties is a Hyderabad-based real estate consulting and property
+            advisory firm focused on helping clients make confident and informed property
+            decisions.
           </p>
           <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-            Every property in our portfolio is selected for its architecture, its location,
-            and the lifestyle it makes possible. Our clients return because we represent
-            them with discretion, intelligence, and a genuine eye for what lasts.
+            With expertise across residential, commercial, luxury and investment properties,
+            we are committed to transparent guidance, verified opportunities and personalised
+            support throughout the property journey.
+          </p>
+          <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
+            From first-time homebuyers to seasoned investors, our work is built on trust,
+            market knowledge and long-term client relationships.
           </p>
 
           <div className="mt-10 grid grid-cols-2 gap-6 max-w-md">
             <div>
-              <div className="font-display text-4xl text-gold">$2B+</div>
-              <div className="text-sm text-muted-foreground mt-1">Transacted value</div>
+              <div className="font-display text-4xl text-gold">100%</div>
+              <div className="text-sm text-muted-foreground mt-1">Verified listings</div>
             </div>
             <div>
-              <div className="font-display text-4xl text-gold">96%</div>
-              <div className="text-sm text-muted-foreground mt-1">Client retention</div>
+              <div className="font-display text-4xl text-gold">1,000+</div>
+              <div className="text-sm text-muted-foreground mt-1">Clients advised</div>
             </div>
           </div>
         </motion.div>

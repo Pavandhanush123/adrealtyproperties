@@ -5,9 +5,9 @@ import pr2 from "@/assets/project-2.jpg";
 import pr3 from "@/assets/project-3.jpg";
 
 const projects = [
-  { img: pr1, name: "Marina Waterfront Collection", location: "Coastal District", units: "48 Residences" },
-  { img: pr2, name: "The Meridian Tower", location: "Central Business District", units: "120 Apartments" },
-  { img: pr3, name: "Palm Courtyards", location: "Resort Quarter", units: "24 Villas" },
+  { img: pr1, name: "Financial District Residences", location: "Nanakramguda, Hyderabad", units: "Premium Apartments" },
+  { img: pr2, name: "Kokapet Skyline Towers", location: "Kokapet, Hyderabad", units: "High-Rise Living" },
+  { img: pr3, name: "Jubilee Hills Villa Collection", location: "Jubilee Hills, Hyderabad", units: "Signature Villas" },
 ];
 
 export function Projects() {
@@ -16,14 +16,14 @@ export function Projects() {
       <div className="container-luxury">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-16">
           <div>
-            <span className="text-eyebrow">Luxury Projects</span>
+            <span className="text-eyebrow">Featured Projects</span>
             <h2 className="mt-4 font-display text-5xl md:text-6xl max-w-2xl">
-              Developments shaping tomorrow's skyline
+              Shaping Hyderabad's premium skyline
             </h2>
           </div>
           <p className="max-w-sm text-white/70 leading-relaxed">
-            Strategic partnerships with the region's most acclaimed developers, brought
-            directly to our clients.
+            Curated partnerships with Hyderabad's most respected developers — bringing
+            verified, well-located projects directly to our clients.
           </p>
         </div>
       </div>
@@ -51,8 +51,8 @@ export function Projects() {
                 <h3 className="mt-3 font-display text-3xl md:text-4xl text-white">{p.name}</h3>
                 <div className="mt-3 flex items-center justify-between">
                   <span className="text-white/70 text-sm">{p.units}</span>
-                  <a href="#" className="inline-flex items-center gap-1.5 text-gold text-sm">
-                    Discover <ArrowUpRight className="h-4 w-4" />
+                  <a href="#contact" className="inline-flex items-center gap-1.5 text-gold text-sm">
+                    Enquire <ArrowUpRight className="h-4 w-4" />
                   </a>
                 </div>
               </div>

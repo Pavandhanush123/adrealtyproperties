@@ -3,9 +3,9 @@ import { ArrowRight } from "lucide-react";
 import hero from "@/assets/hero.jpg";
 
 const stats = [
-  { value: "1,200+", label: "Properties Listed" },
-  { value: "850+", label: "Happy Clients" },
-  { value: "15", label: "Years Experience" },
+  { value: "500+", label: "Verified Listings" },
+  { value: "1,000+", label: "Clients Advised" },
+  { value: "15+", label: "Years in Hyderabad" },
 ];
 
 export function Hero() {
@@ -14,7 +14,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <img
           src={hero}
-          alt="Luxury villa at twilight"
+          alt="Luxury residence in Hyderabad at twilight"
           className="h-full w-full object-cover scale-105"
           width={1920}
           height={1280}
@@ -29,13 +29,13 @@ export function Hero() {
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
           className="max-w-3xl"
         >
-          <span className="text-eyebrow">Curated Luxury Real Estate</span>
+          <span className="text-eyebrow">Hyderabad Real Estate Advisors</span>
           <h1 className="mt-6 font-display text-5xl md:text-7xl lg:text-8xl text-white leading-[0.95]">
-            Find spaces that <em className="text-gold not-italic">define</em> your lifestyle
+            Find the right property, <em className="text-gold not-italic">make informed</em> decisions
           </h1>
           <p className="mt-8 text-lg md:text-xl text-white/80 max-w-xl leading-relaxed">
-            A handpicked portfolio of architecturally significant homes, penthouses, and
-            investment opportunities — for those who recognise the difference.
+            Residential, commercial and investment property expertise across Hyderabad —
+            guided by transparency, market knowledge and a personalised approach.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
