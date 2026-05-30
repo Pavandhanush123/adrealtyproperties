@@ -7,24 +7,24 @@ import p3 from "@/assets/property-3.jpg";
 const properties = [
   {
     img: p1,
-    type: "Apartment",
-    title: "The Vantage Residences",
-    location: "Downtown District",
-    price: "$2.4M",
+    type: "Premium Apartment",
+    title: "Skyline Residences",
+    location: "Gachibowli, Hyderabad",
+    price: "On Request",
   },
   {
     img: p2,
-    type: "Villa",
-    title: "Azure Bay Estate",
-    location: "Palm Coast",
-    price: "$8.9M",
+    type: "Luxury Villa",
+    title: "The Banjara Estate",
+    location: "Jubilee Hills, Hyderabad",
+    price: "On Request",
   },
   {
     img: p3,
-    type: "Penthouse",
-    title: "The Skyline Penthouse",
-    location: "Marina Heights",
-    price: "$5.2M",
+    type: "Commercial",
+    title: "HITEC Corporate Tower",
+    location: "HITEC City, Hyderabad",
+    price: "On Request",
   },
 ];
 
@@ -36,14 +36,14 @@ export function Properties() {
           <div>
             <span className="text-eyebrow">Featured Listings</span>
             <h2 className="mt-4 font-display text-5xl md:text-6xl text-navy max-w-xl">
-              Signature properties, individually curated
+              Verified properties across Hyderabad
             </h2>
           </div>
           <a
-            href="#"
+            href="#contact"
             className="inline-flex items-center gap-2 text-navy border-b border-gold pb-1 hover:text-gold transition-colors"
           >
-            View entire portfolio
+            Request full portfolio
             <ArrowUpRight className="h-4 w-4" />
           </a>
         </div>
@@ -76,12 +76,12 @@ export function Properties() {
                 </div>
                 <h3 className="mt-3 font-display text-2xl text-navy">{p.title}</h3>
                 <div className="mt-5 flex items-center justify-between pt-5 border-t border-border">
-                  <span className="font-display text-2xl text-gold">{p.price}</span>
+                  <span className="font-display text-xl text-gold">{p.price}</span>
                   <a
-                    href="#"
+                    href="#contact"
                     className="inline-flex items-center gap-1.5 text-sm text-navy hover:text-gold transition-colors"
                   >
-                    View Details <ArrowUpRight className="h-3.5 w-3.5" />
+                    Enquire <ArrowUpRight className="h-3.5 w-3.5" />
                   </a>
                 </div>
               </div>

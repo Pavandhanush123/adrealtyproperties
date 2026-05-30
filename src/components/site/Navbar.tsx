@@ -5,6 +5,7 @@ import logo from "@/assets/logo.jpeg";
 const links = [
   { href: "#home", label: "Home" },
   { href: "#properties", label: "Properties" },
+  { href: "#services", label: "Services" },
   { href: "#projects", label: "Projects" },
   { href: "#about", label: "About" },
   { href: "#contact", label: "Contact" },
@@ -57,7 +58,7 @@ export function Navbar() {
 
         <div className="flex items-center gap-3">
           <a
-            href="https://wa.me/971500000000"
+            href="https://wa.me/919676211233"
             target="_blank"
             rel="noreferrer"
             className="hidden sm:inline-flex items-center gap-2 bg-gold text-gold-foreground px-5 py-2.5 rounded-full text-sm font-medium hover:bg-gold/90 transition-all hover:shadow-luxury"
