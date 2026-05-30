@@ -3,19 +3,29 @@ import { Quote } from "lucide-react";
 
 const items = [
   {
-    quote: "AD Realty understood exactly what we were looking for before we did. The home they found us isn't just a property — it's the right one.",
-    name: "Sarah & Rohan Mehta",
-    role: "Private Clients",
+    quote: "We recently bought an ideal new place we're excited to call home. Team of AD Realty Properties helped us to buy a luxurious Flat as per our preferred choice. They were helpful and responsive to every one of my questions, no matter how small and helped us navigate the entire process. Would surely recommend them for their professionalism and integrity.",
+    name: "Runa Tripathy",
+    role: "IT Professional",
   },
   {
-    quote: "Discreet, intelligent, and completely aligned with our investment thesis. They've become an extension of our family office.",
-    name: "James Okafor",
-    role: "Investor",
+    quote: "Thank you so much AD Realty Properties, I had an excellent experience as the team did a fantastic job. Their knowledge about the Hyderabad location is incredible. During the entire process, the team was always available and super responsive that made our home buying seamless for us. There were no unexpected issues with closing the deal.",
+    name: "Ashutosh",
+    role: "Industrialist",
   },
   {
-    quote: "From first viewing to handover, every detail was handled with quiet precision. A genuinely premium experience.",
-    name: "Lina Haddad",
-    role: "Penthouse Owner",
+    quote: "AD Realty Properties worked like professionals and guided us right from the beginning till the final possession of the property. Being transparent about their business processes, the team offered simple solutions to what we were looking for as a new homebuyer. Our journey with them was very comfortable without any hassle.",
+    name: "K. Raghu",
+    role: "Entrepreneur",
+  },
+  {
+    quote: "Anil Datla is very professional. He goes the extra mile in securing a good property and helping with everything involved. He sensed the need and discussed in detail with us. He suggested a different property and location that suited us. He was always available to answer our questions and to show us the apartment any time we asked for. Would warmly recommend!",
+    name: "Abhijit",
+    role: "IT Professional",
+  },
+  {
+    quote: "Responding quickly to our queries from the beginning until closing the deal, the team managed everything with utmost professionalism. With their helpful suggestion, we could choose the house that we always wanted for our family. We highly recommend AD Realty Properties and they should be your first choice when looking to buy a residential or commercial property.",
+    name: "Manoj",
+    role: "IT Professional",
   },
 ];
 
