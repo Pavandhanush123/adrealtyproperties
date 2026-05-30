@@ -99,6 +99,7 @@ export function Contact() {
             Send Enquiry
           </button>
         </motion.form>
+      </div>
     </section>
   );
 }
