@@ -20,6 +20,12 @@ export function TrustBadges() {
           <h2 className="mt-4 font-display text-3xl md:text-4xl text-navy">
             Affiliated with the most respected bodies in real estate
           </h2>
+          <div className="mt-5 inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold/10 border border-gold/30">
+            <span className="h-1.5 w-1.5 rounded-full bg-gold" />
+            <span className="text-xs tracking-[0.25em] uppercase text-navy font-medium">
+              International Realtor
+            </span>
+          </div>
         </div>
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-border rounded-2xl overflow-hidden border border-border">
