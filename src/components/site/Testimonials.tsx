@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 import { Quote } from "lucide-react";
+import { useRef } from "react";
+import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
 
 const items = [
   {
@@ -30,6 +33,14 @@ const items = [
 ];
 
 export function Testimonials() {
+  const autoplay = useRef(
+    Autoplay({ delay: 5000, stopOnInteraction: false, stopOnMouseEnter: true })
+  );
+  const [emblaRef] = useEmblaCarousel(
+    { loop: true, align: "start", containScroll: "trimSnaps" },
+    [autoplay.current]
+  );
+
   return (
     <section className="py-32 bg-sand relative overflow-hidden">
       <div className="container-luxury">
@@ -40,26 +51,32 @@ export function Testimonials() {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
-          {items.map((t, i) => (
-            <motion.figure
-              key={t.name}
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: i * 0.12 }}
-              className="glass-panel rounded-2xl p-8 shadow-soft"
-            >
-              <Quote className="h-7 w-7 text-gold" strokeWidth={1.5} />
-              <blockquote className="mt-5 font-display text-xl leading-snug text-navy">
-                "{t.quote}"
-              </blockquote>
-              <figcaption className="mt-6 pt-6 border-t border-navy/10">
-                <div className="font-medium text-navy">{t.name}</div>
-                <div className="text-sm text-muted-foreground">{t.role}</div>
-              </figcaption>
-            </motion.figure>
-          ))}
+        <div className="overflow-hidden -mx-3" ref={emblaRef}>
+          <div className="flex">
+            {items.map((t, i) => (
+              <div
+                key={t.name}
+                className="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.3333%] min-w-0 px-3"
+              >
+                <motion.figure
+                  initial={{ opacity: 0, y: 24 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.8, delay: i * 0.08 }}
+                  className="glass-panel rounded-2xl p-8 shadow-soft h-full"
+                >
+                  <Quote className="h-7 w-7 text-gold" strokeWidth={1.5} />
+                  <blockquote className="mt-5 font-display text-xl leading-snug text-navy">
+                    "{t.quote}"
+                  </blockquote>
+                  <figcaption className="mt-6 pt-6 border-t border-navy/10">
+                    <div className="font-medium text-navy">{t.name}</div>
+                    <div className="text-sm text-muted-foreground">{t.role}</div>
+                  </figcaption>
+                </motion.figure>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
