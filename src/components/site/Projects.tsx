@@ -5,9 +5,9 @@ import pr2 from "@/assets/project-2.jpg";
 import pr3 from "@/assets/project-3.jpg";
 
 const projects = [
-  { img: pr1, name: "Financial District Residences", location: "Nanakramguda, Hyderabad", units: "Premium Apartments" },
-  { img: pr2, name: "Kokapet Skyline Towers", location: "Kokapet, Hyderabad", units: "High-Rise Living" },
-  { img: pr3, name: "Jubilee Hills Villa Collection", location: "Jubilee Hills, Hyderabad", units: "Signature Villas" },
+  { img: pr1, name: "Global Skyline Collection", location: "Dubai · Hyderabad", units: "Iconic Towers" },
+  { img: pr2, name: "Coastal Signature Residences", location: "Goa · International", units: "Beachfront Villas" },
+  { img: pr3, name: "Ridge Estate Reserve", location: "Bangalore · Global", units: "Hillside Villas" },
 ];
 
 export function Projects() {
@@ -17,12 +17,12 @@ export function Projects() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-16">
           <div>
             <span className="text-eyebrow">Featured Projects</span>
-            <h2 className="mt-4 font-display text-5xl md:text-6xl max-w-2xl">
-              Shaping Hyderabad's premium skyline
+            <h2 className="mt-4 font-display text-5xl md:text-6xl max-w-3xl leading-[1.05]">
+              Shaping the Future of Premium Real Estate &amp; Crafting Iconic Spaces with Global Excellence.
             </h2>
           </div>
           <p className="max-w-sm text-white/70 leading-relaxed">
-            Curated partnerships with Hyderabad's most respected developers — bringing
+            Curated partnerships with the world's most respected developers — bringing
             verified, well-located projects directly to our clients.
           </p>
         </div>
@@ -33,10 +33,10 @@ export function Projects() {
           {projects.map((p, i) => (
             <motion.div
               key={p.name}
-              initial={{ opacity: 0, x: 40 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: i * 0.12 }}
+              transition={{ duration: 0.8, delay: i * 0.12, ease: [0.22, 1, 0.36, 1] }}
               className="group relative w-[85vw] sm:w-[520px] lg:w-[620px] aspect-[4/5] rounded-2xl overflow-hidden shadow-luxury"
             >
               <img

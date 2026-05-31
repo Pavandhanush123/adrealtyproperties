@@ -3,7 +3,7 @@ import { ArrowRight, TrendingUp, Building2, Globe2, LineChart } from "lucide-rea
 
 const pillars = [
   { icon: TrendingUp, label: "Capital Growth", value: "8–14% p.a." },
-  { icon: LineChart, label: "Rental Yields", value: "Up to 9%" },
+  { icon: LineChart, label: "Rental Yields", value: "Up to 7–9%" },
   { icon: Building2, label: "Commercial Mix", value: "Office · Retail · Hospitality" },
   { icon: Globe2, label: "Global Clientele", value: "32 Countries" },
 ];
@@ -24,9 +24,9 @@ export function Investment() {
               Real estate as a long-term position
             </h2>
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-              From single residences to portfolio acquisitions, our advisory desk helps
-              private clients and institutions allocate capital into properties that
-              perform — across cycles, geographies, and asset classes.
+              We believe real estate is a long-term wealth creation asset. By focusing on
+              prime locations, quality developments, and future growth potential, we help
+              investors build enduring value and secure their financial future.
             </p>
             <a
               href="#contact"

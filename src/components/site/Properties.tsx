@@ -3,6 +3,8 @@ import { MapPin, ArrowUpRight } from "lucide-react";
 import p1 from "@/assets/property-1.jpg";
 import p2 from "@/assets/property-2.jpg";
 import p3 from "@/assets/property-3.jpg";
+import pVilla from "@/assets/property-villa.jpg";
+import pFarm from "@/assets/property-farmhouse.jpg";
 
 const properties = [
   {
@@ -13,8 +15,8 @@ const properties = [
     price: "On Request",
   },
   {
-    img: p2,
-    type: "Luxury Villa",
+    img: pVilla,
+    type: "Villa",
     title: "The Banjara Estate",
     location: "Jubilee Hills, Hyderabad",
     price: "On Request",
@@ -26,6 +28,20 @@ const properties = [
     location: "HITEC City, Hyderabad",
     price: "On Request",
   },
+  {
+    img: p2,
+    type: "Luxury Villa",
+    title: "Riviera Crest Villas",
+    location: "Kokapet, Hyderabad",
+    price: "On Request",
+  },
+  {
+    img: pFarm,
+    type: "Farmhouse",
+    title: "Greenstone Farmhouse",
+    location: "Shamirpet, Hyderabad",
+    price: "On Request",
+  },
 ];
 
 export function Properties() {
@@ -35,9 +51,12 @@ export function Properties() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-16">
           <div>
             <span className="text-eyebrow">Featured Listings</span>
-            <h2 className="mt-4 font-display text-5xl md:text-6xl text-navy max-w-xl">
-              Verified properties across Hyderabad
+            <h2 className="mt-4 font-display text-5xl md:text-6xl text-navy max-w-2xl leading-[1.05]">
+              Trusted Property Investments Across Global Markets
             </h2>
+            <p className="mt-6 text-muted-foreground text-lg leading-relaxed max-w-xl">
+              Building Trust. Creating Wealth. Delivering Exceptional Real Estate Opportunities.
+            </p>
           </div>
           <a
             href="#contact"
