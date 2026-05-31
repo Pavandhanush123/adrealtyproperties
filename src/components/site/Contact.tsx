@@ -1,4 +1,4 @@
-import { MessageCircle, Mail, Phone, MapPin, Clock, ArrowUpRight } from "lucide-react";
+import { Mail, Phone, MapPin, Clock, ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 export function Contact() {
