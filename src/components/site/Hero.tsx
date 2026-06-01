@@ -29,12 +29,12 @@ export function Hero() {
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
           className="max-w-3xl"
         >
-          <span className="text-eyebrow">Hyderabad Real Estate Advisors</span>
+          <span className="text-eyebrow">Across Global Markets Advisory</span>
           <h1 className="mt-6 font-display text-5xl md:text-7xl lg:text-8xl text-white leading-[0.95]">
             Find the right property, <em className="text-gold not-italic">make informed</em> decisions
           </h1>
           <p className="mt-8 text-lg md:text-xl text-white/80 max-w-xl leading-relaxed">
-            Residential, commercial and investment property expertise across Hyderabad —
+            Residential, commercial and investment property expertise across India and international markets —
             guided by transparency, market knowledge and a personalised approach.
           </p>
 
