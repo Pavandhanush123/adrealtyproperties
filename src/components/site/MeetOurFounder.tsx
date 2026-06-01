@@ -90,7 +90,7 @@ export function MeetOurFounder() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-            className="lg:col-span-7"
+            className="lg:col-span-8"
           >
             <div className="flex flex-wrap items-center gap-2 mb-6">
               <span className="inline-flex items-center gap-1.5 text-xs tracking-[0.2em] uppercase text-gold bg-gold/10 px-3 py-1.5 rounded-full">
