@@ -60,6 +60,8 @@ export function Footer() {
                   key={social.label}
                   href={social.href}
                   aria-label={social.label}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="h-11 w-11 rounded-full border border-white/10 flex items-center justify-center hover:border-gold hover:text-gold hover:bg-gold/5 transition-all duration-300"
                 >
                   <social.icon className="h-[18px] w-[18px]" strokeWidth={1.5} />
