@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight, MapPin, Award, Globe } from "lucide-react";
+import founderPortrait from "@/assets/anil-datla-portrait.jpeg.asset.json";
 
 // Official WhatsApp brand mark
 function WhatsAppIcon({ className = "h-5 w-5" }: { className?: string }) {
