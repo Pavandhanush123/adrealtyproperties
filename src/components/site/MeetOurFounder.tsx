@@ -144,30 +144,6 @@ export function MeetOurFounder() {
               </div>
             </div>
 
-            {/* Professional Memberships */}
-            <div className="mt-10">
-              <span className="text-eyebrow inline-flex items-center gap-2">
-                <ShieldCheck className="h-3.5 w-3.5 text-gold" />
-                Professional Memberships &amp; Certifications
-              </span>
-              <div className="mt-5 grid grid-cols-1 sm:grid-cols-3 gap-3">
-                {memberships.map((m, i) => (
-                  <motion.div
-                    key={m.name}
-                    initial={{ opacity: 0, y: 16 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.6, delay: i * 0.08 }}
-                    className="p-5 rounded-xl bg-background border border-border hover:border-gold/40 hover:shadow-soft transition-all duration-300 text-center"
-                  >
-                    <div className="font-display text-2xl text-navy">{m.name}</div>
-                    <div className="mt-1 text-[10px] tracking-[0.2em] uppercase text-muted-foreground">
-                      {m.sub}
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
           </motion.div>
         </div>
       </div>
