@@ -63,15 +63,15 @@ export function Testimonials() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.8, delay: i * 0.08 }}
-                  className="glass-panel rounded-2xl p-8 shadow-soft h-full"
+                  className="glass-panel rounded-2xl p-6 shadow-soft h-full"
                 >
-                  <Quote className="h-7 w-7 text-gold" strokeWidth={1.5} />
-                  <blockquote className="mt-5 font-display text-xl leading-snug text-navy">
+                  <Quote className="h-6 w-6 text-gold" strokeWidth={1.5} />
+                  <blockquote className="mt-4 font-display text-base leading-snug text-navy">
                     "{t.quote}"
                   </blockquote>
-                  <figcaption className="mt-6 pt-6 border-t border-navy/10">
-                    <div className="font-medium text-navy">{t.name}</div>
-                    <div className="text-sm text-muted-foreground">{t.role}</div>
+                  <figcaption className="mt-5 pt-5 border-t border-navy/10">
+                    <div className="font-medium text-navy text-sm">{t.name}</div>
+                    <div className="text-xs text-muted-foreground">{t.role}</div>
                   </figcaption>
                 </motion.figure>
               </div>
