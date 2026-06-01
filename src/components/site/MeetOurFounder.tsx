@@ -39,11 +39,11 @@ export function MeetOurFounder() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-            className="lg:col-span-5"
+            className="lg:col-span-4"
           >
             <div className="relative aspect-[3/4] rounded-2xl overflow-hidden border border-border shadow-luxury bg-gradient-to-br from-navy/5 to-navy/0">
               <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <div className="font-display text-[7rem] leading-none text-gold/70">AD</div>
+                <div className="font-display text-[5.5rem] leading-none text-gold/70">AD</div>
                 <div className="mt-5 text-xs tracking-[0.35em] uppercase text-navy/40">
                   Portrait coming soon
                 </div>
