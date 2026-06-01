@@ -117,7 +117,16 @@ export function MeetOurFounder() {
             </p>
 
             <p className="mt-8 text-navy/80 text-lg leading-relaxed">
-              Anil Datla is a <strong className="text-navy">Telangana RERA-approved Realtor</strong> and Founder of AD Realty Properties, specializing in residential, commercial, and investment properties across <strong className="text-navy">India and international markets</strong>.
+              My expertise extends to properties in Goa, Dubai, and USA.
+            </p>
+            <p className="mt-4 text-navy/80 text-lg leading-relaxed">
+              I specialize in landowner/investor share properties, including gated community flats, villas, commercial spaces, farmlands, and gated community plots.
+            </p>
+            <p className="mt-4 text-navy/80 text-lg leading-relaxed">
+              For any property-related inquiries, whether you are looking to buy or sell, please feel free to contact me. I invite you to join my WhatsApp group and follow my WhatsApp channel for exclusive updates and super deals on upcoming projects.
+            </p>
+            <p className="mt-4 text-navy/80 text-lg leading-relaxed">
+              For exclusive super deals and group booking opportunities in upcoming projects, please contact me. You can also join my WhatsApp Group and follow my WhatsApp Channel for the latest real estate investment updates.
             </p>
 
             <div className="mt-8 pt-8 border-t border-border flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8">
