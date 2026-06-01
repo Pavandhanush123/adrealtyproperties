@@ -3,10 +3,10 @@ import { Instagram, Linkedin, Facebook, Twitter, Youtube, MapPin, Phone, Mail, A
 import { motion } from "framer-motion";
 
 const socialLinks = [
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Facebook, href: "#", label: "Facebook" },
-  { icon: Twitter, href: "#", label: "Twitter" },
+  { icon: Instagram, href: "https://www.instagram.com/anil.datla/?hl=en", label: "Instagram" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/anil-datla-7a431420/", label: "LinkedIn" },
+  { icon: Facebook, href: "https://www.facebook.com/venkataanilkumar.datla/", label: "Facebook" },
+  { icon: Twitter, href: "https://x.com/AD114455", label: "X (Twitter)" },
   { icon: Youtube, href: "#", label: "YouTube" },
 ];
 
@@ -60,6 +60,8 @@ export function Footer() {
                   key={social.label}
                   href={social.href}
                   aria-label={social.label}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="h-11 w-11 rounded-full border border-white/10 flex items-center justify-center hover:border-gold hover:text-gold hover:bg-gold/5 transition-all duration-300"
                 >
                   <social.icon className="h-[18px] w-[18px]" strokeWidth={1.5} />
