@@ -1,11 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight, MapPin, Award, Globe, ShieldCheck } from "lucide-react";
-
-const memberships = [
-  { name: "RICS", sub: "Certified Professional" },
-  { name: "NAR India", sub: "Member" },
-  { name: "NAR USA", sub: "Member" },
-];
+import { ArrowUpRight, MapPin, Award, Globe } from "lucide-react";
 
 // Official WhatsApp brand mark
 function WhatsAppIcon({ className = "h-5 w-5" }: { className?: string }) {
@@ -45,11 +39,11 @@ export function MeetOurFounder() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-            className="lg:col-span-5"
+            className="lg:col-span-4"
           >
             <div className="relative aspect-[3/4] rounded-2xl overflow-hidden border border-border shadow-luxury bg-gradient-to-br from-navy/5 to-navy/0">
               <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <div className="font-display text-[7rem] leading-none text-gold/70">AD</div>
+                <div className="font-display text-[5.5rem] leading-none text-gold/70">AD</div>
                 <div className="mt-5 text-xs tracking-[0.35em] uppercase text-navy/40">
                   Portrait coming soon
                 </div>
@@ -96,7 +90,7 @@ export function MeetOurFounder() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-            className="lg:col-span-7"
+            className="lg:col-span-8"
           >
             <div className="flex flex-wrap items-center gap-2 mb-6">
               <span className="inline-flex items-center gap-1.5 text-xs tracking-[0.2em] uppercase text-gold bg-gold/10 px-3 py-1.5 rounded-full">
@@ -117,7 +111,16 @@ export function MeetOurFounder() {
             </p>
 
             <p className="mt-8 text-navy/80 text-lg leading-relaxed">
-              Anil Datla is a <strong className="text-navy">Telangana RERA-approved Realtor</strong> and Founder of AD Realty Properties, specializing in residential, commercial, and investment properties across <strong className="text-navy">India and international markets</strong>.
+              My expertise extends to properties in Goa, Dubai, and USA.
+            </p>
+            <p className="mt-4 text-navy/80 text-lg leading-relaxed">
+              I specialize in landowner/investor share properties, including gated community flats, villas, commercial spaces, farmlands, and gated community plots.
+            </p>
+            <p className="mt-4 text-navy/80 text-lg leading-relaxed">
+              For any property-related inquiries, whether you are looking to buy or sell, please feel free to contact me. I invite you to join my WhatsApp group and follow my WhatsApp channel for exclusive updates and super deals on upcoming projects.
+            </p>
+            <p className="mt-4 text-navy/80 text-lg leading-relaxed">
+              For exclusive super deals and group booking opportunities in upcoming projects, please contact me. You can also join my WhatsApp Group and follow my WhatsApp Channel for the latest real estate investment updates.
             </p>
 
             <div className="mt-8 pt-8 border-t border-border flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8">
@@ -141,30 +144,6 @@ export function MeetOurFounder() {
               </div>
             </div>
 
-            {/* Professional Memberships */}
-            <div className="mt-10">
-              <span className="text-eyebrow inline-flex items-center gap-2">
-                <ShieldCheck className="h-3.5 w-3.5 text-gold" />
-                Professional Memberships &amp; Certifications
-              </span>
-              <div className="mt-5 grid grid-cols-1 sm:grid-cols-3 gap-3">
-                {memberships.map((m, i) => (
-                  <motion.div
-                    key={m.name}
-                    initial={{ opacity: 0, y: 16 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.6, delay: i * 0.08 }}
-                    className="p-5 rounded-xl bg-background border border-border hover:border-gold/40 hover:shadow-soft transition-all duration-300 text-center"
-                  >
-                    <div className="font-display text-2xl text-navy">{m.name}</div>
-                    <div className="mt-1 text-[10px] tracking-[0.2em] uppercase text-muted-foreground">
-                      {m.sub}
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
           </motion.div>
         </div>
       </div>
