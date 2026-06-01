@@ -111,7 +111,7 @@ export function MeetOurFounder() {
             </p>
 
             <p className="mt-8 text-navy/80 text-lg leading-relaxed">
-              My expertise extends to properties in Goa, Dubai, and USA.
+              My expertise extends to properties in Indian markets and global markets.
             </p>
             <p className="mt-4 text-navy/80 text-lg leading-relaxed">
               I specialize in landowner/investor share properties, including gated community flats, villas, commercial spaces, farmlands, and gated community plots.
