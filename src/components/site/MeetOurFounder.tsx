@@ -1,11 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight, MapPin, Award, Globe, ShieldCheck } from "lucide-react";
-
-const memberships = [
-  { name: "RICS", sub: "Certified Professional" },
-  { name: "NAR India", sub: "Member" },
-  { name: "NAR USA", sub: "Member" },
-];
+import { ArrowUpRight, MapPin, Award, Globe } from "lucide-react";
 
 // Official WhatsApp brand mark
 function WhatsAppIcon({ className = "h-5 w-5" }: { className?: string }) {
