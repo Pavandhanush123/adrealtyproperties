@@ -1,8 +1,8 @@
 # Deploy AD Realty Properties to Vercel (GitHub)
 
-This project is a **TanStack Start** + **Vite** app. The repo is already on GitHub:
+This project is a **TanStack Start** + **Vite** app. GitHub repo:
 
-`https://github.com/outliersynapse/adrealtyproperties-e7d8e5a3`
+`https://github.com/Pavandhanush123/adrealtyproperties`
 
 ## 1. Verify locally (before every deploy)
 
@@ -40,7 +40,7 @@ Vercel deploys from the `main` branch when Git integration is enabled.
 
 1. Sign in at [vercel.com](https://vercel.com) (GitHub login is easiest).
 2. **Add New… → Project**.
-3. **Import** `outliersynapse/adrealtyproperties-e7d8e5a3`.
+3. **Import** `Pavandhanush123/adrealtyproperties`.
 4. Framework: **Vite** (auto-detected is fine).
 5. Build settings (usually auto-detected for TanStack Start + Nitro):
    - **Framework Preset:** Other (or TanStack Start if listed)
