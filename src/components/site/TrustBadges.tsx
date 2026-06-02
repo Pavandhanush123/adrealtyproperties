@@ -3,11 +3,13 @@ import { ShieldCheck } from "lucide-react";
 import ricsLogo from "@/assets/rics-logo.jpeg.asset.json";
 import narIndiaLogo from "@/assets/nar-india-logo.jpeg.asset.json";
 import narUsaLogo from "@/assets/nar-usa-logo.jpeg.asset.json";
+import realtorLogo from "@/assets/realtor-logo.jpeg.asset.json";
 
 const logos = [
   { name: "RICS Certified Professional", src: ricsLogo.url },
   { name: "Member of NAR India", src: narIndiaLogo.url },
   { name: "Member of NAR USA", src: narUsaLogo.url },
+  { name: "International REALTOR®", src: realtorLogo.url },
 ];
 
 export function TrustBadges() {
