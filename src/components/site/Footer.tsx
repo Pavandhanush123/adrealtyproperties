@@ -181,6 +181,17 @@ export function Footer() {
             <a href="#" className="hover:text-gold transition-colors duration-200">Cookie Policy</a>
           </div>
         </div>
+        <div className="pb-6 text-center text-xs text-white/40">
+          Designed by{" "}
+          <a
+            href="https://www.outliersynapse.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gold hover:text-gold/80 transition-colors duration-200"
+          >
+            Siri Sandela
+          </a>
+        </div>
       </div>
     </footer>
   );
