@@ -1,5 +1,6 @@
-import logo from "@/assets/logo.jpeg";
-import { Instagram, Linkedin, Facebook, Twitter, Youtube, MapPin, Phone, Mail, ArrowUpRight } from "lucide-react";
+import logoAsset from "@/assets/ad-logo.png.asset.json";
+const logo = logoAsset.url;
+import { Instagram, Linkedin, Facebook, Twitter, MapPin, Phone, Mail, ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 const socialLinks = [
@@ -7,7 +8,6 @@ const socialLinks = [
   { icon: Linkedin, href: "https://www.linkedin.com/in/anil-datla-7a431420/", label: "LinkedIn" },
   { icon: Facebook, href: "https://www.facebook.com/venkataanilkumar.datla/", label: "Facebook" },
   { icon: Twitter, href: "https://x.com/AD114455", label: "X (Twitter)" },
-  { icon: Youtube, href: "#", label: "YouTube" },
 ];
 
 const exploreLinks = [
