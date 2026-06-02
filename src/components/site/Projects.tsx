@@ -47,8 +47,7 @@ export function Projects() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy via-navy/30 to-transparent" />
               <div className="absolute inset-x-0 bottom-0 p-8">
-                <div className="text-xs tracking-[0.3em] uppercase text-gold">{p.location}</div>
-                <h3 className="mt-3 font-display text-3xl md:text-4xl text-white">{p.name}</h3>
+                <h3 className="font-display text-3xl md:text-4xl text-white">{p.name}</h3>
                 <div className="mt-3 flex items-center justify-between">
                   <span className="text-white/70 text-sm">{p.units}</span>
                   <a href="#contact" className="inline-flex items-center gap-1.5 text-gold text-sm">
