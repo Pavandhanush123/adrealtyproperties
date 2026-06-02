@@ -104,11 +104,7 @@ export function Properties() {
                     </span>
                   </div>
                   <div className="p-7">
-                    <div className="flex items-center gap-2 text-muted-foreground text-sm">
-                      <MapPin className="h-3.5 w-3.5 text-gold" />
-                      {p.location}
-                    </div>
-                    <h3 className="mt-3 font-display text-2xl text-navy">{p.title}</h3>
+                    <h3 className="font-display text-2xl text-navy">{p.title}</h3>
                     <div className="mt-5 flex items-center justify-between pt-5 border-t border-border">
                       <span className="font-display text-xl text-gold">{p.price}</span>
                       <a
