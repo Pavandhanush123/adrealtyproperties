@@ -108,12 +108,6 @@ function RootShell({ children }: { children: ReactNode }) {
       <body>
         {children}
         <Scripts />
-        <script
-          src="https://widget.askproperty.ai/widget.js"
-          data-key="d3800eaddada92860f7a6676aa6866ce92dfa4a4d6259fe61e4d463cd0b38e64"
-          data-style="bar"
-          async
-        />
       </body>
     </html>
   );
